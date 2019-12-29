@@ -78,4 +78,23 @@ const Grid = styled.div`
   }
 `;
 
-export { Container, Row, Grid, GlobalStyle };
+/* Start of the 12 Col Grid */
+
+const GridTest = styled.div`
+  flex: 0 0 calc(100% / 12 * ${props => props.xl});
+
+  @media (max-width: 600px) {
+    flex: 0 0 calc(100% / 12 * ${props => props.sm || "100%"});
+  }
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    flex: 0 0 calc(100% / 12 * ${props => props.md || "100%"});
+  }
+
+  @media (min-width: 1025px) and (max-width: 1366px) {
+    flex: 0 0 calc(100% / 12 * ${props => props.lg || "100%"});
+  }
+  background: yellow;
+`;
+
+export { Container, Row, Grid, GlobalStyle, GridTest };
