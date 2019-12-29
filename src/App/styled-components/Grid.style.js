@@ -23,9 +23,8 @@ const GlobalStyle = createGlobalStyle`
         font-size: 60%;
     }
 } 
-}
 
-html, body {
+body {
     width: 100vw;
     height: 100vh;
 }
@@ -38,7 +37,6 @@ width: ${props => props.width || "100vw"}
 height: ${props => props.height || "100vh"}
 
 margin: 0 auto;
-
 
 @media(max-width:800px) {
     width: 100%;
@@ -59,7 +57,7 @@ const Grid = styled.div`
   width: ${props => props.xl || "auto"};
   height: ${props => props.height || "min-content"};
 
-  background: #cfd8dc;
+  background: #90caf9;
   padding: 0.5rem;
   border-radius: 0.5rem;
   font-weight: 100;
@@ -81,10 +79,10 @@ const Grid = styled.div`
 /* Start of the 12 Col Grid */
 
 const GridTest = styled.div`
+  position: relative;
   flex: 0 0 calc(100% / 12 * ${props => props.xl});
-
-  background: #cfd8dc;
-  height: 5rem;
+  background: #90caf9;
+  height: 3rem;
   border-radius: 0.5rem;
   margin-top: 0.5rem;
   border: 2px solid #fff;
