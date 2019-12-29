@@ -81,13 +81,13 @@ const Grid = styled.div`
 const GridTest = styled.div`
   position: relative;
   flex: 0 0 calc(100% / 12 * ${props => props.xl});
-  background: #90caf9;
-  height: 3rem;
+  height: ${props => props.height || "min-content"};
   border-radius: 0.5rem;
   margin-top: 0.5rem;
   border: 2px solid #fff;
   font-size: 2rem;
   color: #333;
+  background: #90caf9;
 
   display: flex;
   justify-content: center;
