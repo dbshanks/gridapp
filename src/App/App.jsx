@@ -14,7 +14,7 @@ function App() {
       <GlobalStyle />
       <Container width="80%" height="100vh">
         <Row>
-          <Grid height="min-content" sm="100%" md="50%" lg="20%" xl="10%">
+          <Grid height="min-content" sm="100%" md="50%" lg="20%" xl="40%">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
               perferendis. Adipisci quasi sapiente alias veritatis, doloremque
@@ -22,7 +22,7 @@ function App() {
               commodi placeat natus dolores possimus. Praesentium.
             </p>
           </Grid>
-          <Grid height="min-content" sm="100%" md="50%" lg="20%" xl="10%">
+          <Grid height="min-content" sm="100%" md="50%" lg="20%" xl="30%">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
               perferendis. Adipisci quasi sapiente alias veritatis, doloremque
@@ -36,13 +36,13 @@ function App() {
               commodi placeat natus dolores possimus. Praesentium.
             </p>
           </Grid>
-          <Grid height="min-content" sm="100%" md="50%" lg="20%" xl="10%">
+          <Grid height="min-content" sm="100%" md="50%" lg="20%" xl="30%">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
               perferendis. Adipisci quasi sapiente alias veritatis, doloremque
             </p>
           </Grid>
-          <Grid height="min-content" sm="100%" md="50%" lg="20%" xl="10%">
+          <Grid height="min-content" sm="100%" md="50%" lg="20%" xl="40%">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
               perferendis. Adipisci quasi sapiente alias veritatis, doloremque
@@ -57,7 +57,7 @@ function App() {
               commodi placeat natus dolores possimus. Praesentium.
             </p>
           </Grid>
-          <Grid height="min-content" sm="20%" md="30%" lg="20%" xl="10%">
+          <Grid height="min-content" sm="20%" md="30%" lg="20%" xl="20%">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem
               ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum

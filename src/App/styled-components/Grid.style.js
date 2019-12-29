@@ -38,7 +38,7 @@ width: ${props => props.width || "100vw"}
 height: ${props => props.height || "100vh"}
 
 margin: 0 auto;
-background: #D4E157;
+
 
 @media(max-width:800px) {
     width: 100%;
@@ -52,8 +52,6 @@ const Row = styled.div`
 
   display: flex;
   flex-wrap: wrap;
-
-  background: #ffab91;
 `;
 
 const Grid = styled.div`
@@ -61,9 +59,11 @@ const Grid = styled.div`
   width: ${props => props.xl || "auto"};
   height: ${props => props.height || "min-content"};
 
-  background: #607d8b;
+  background: #cfd8dc;
   padding: 0.5rem;
-  border: 2px solid #ffab91;
+  border-radius: 0.5rem;
+  font-weight: 100;
+  border: 2px solid #fff;
 
   @media (max-width: 600px) {
     width: ${props => props.sm || "100%"};
@@ -83,6 +83,18 @@ const Grid = styled.div`
 const GridTest = styled.div`
   flex: 0 0 calc(100% / 12 * ${props => props.xl});
 
+  background: #cfd8dc;
+  height: 5rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  border: 2px solid #fff;
+  font-size: 2rem;
+  color: #333;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   @media (max-width: 600px) {
     flex: 0 0 calc(100% / 12 * ${props => props.sm || "100%"});
   }
@@ -94,7 +106,6 @@ const GridTest = styled.div`
   @media (min-width: 1025px) and (max-width: 1366px) {
     flex: 0 0 calc(100% / 12 * ${props => props.lg || "100%"});
   }
-  background: yellow;
 `;
 
 export { Container, Row, Grid, GlobalStyle, GridTest };
